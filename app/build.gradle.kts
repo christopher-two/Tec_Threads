@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "org.christophertwo.humillandobots.threads"
+    namespace = "org.christophertwo.tec.threads"
     compileSdk {
         version = release(37) {
             minorApiLevel = 1
@@ -12,7 +12,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "org.christophertwo.humillandobots.threads"
+        applicationId = "org.christophertwo.tec.threads"
         minSdk = 24
         targetSdk = 37
         versionCode = 1

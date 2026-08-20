@@ -22,6 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Threads"
+rootProject.name = "TecThreads"
+
 include(":app")
- 

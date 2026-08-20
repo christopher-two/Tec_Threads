@@ -1,0 +1,5 @@
+- [x] Actualizar `app/build.gradle.kts` (`namespace` y `applicationId`)
+- [x] Renombrar directorios de paquetes (mover archivos)
+- [x] Actualizar declaraciones de `package` e `imports` en archivos Kotlin
+- [x] Verificar compilación con `./gradlew assembleDebug`
+- [x] Crear walkthrough

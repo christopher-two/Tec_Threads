@@ -1,4 +1,4 @@
-package org.christophertwo.humillandobots.threads
+package org.christophertwo.tec.threads
 
 import org.junit.Test
 

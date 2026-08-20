@@ -1,4 +1,4 @@
-package org.christophertwo.humillandobots.threads.core.ui
+package org.christophertwo.tec.threads.core.ui
 
 import androidx.compose.ui.graphics.Color
 

@@ -1,16 +1,19 @@
-package org.christophertwo.humillandobots.threads
+package org.christophertwo.tec.threads
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.compose.material3.MaterialTheme
+import org.christophertwo.tec.threads.core.ui.AppTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
+            AppTheme {
+
+            }
         }
     }
 }

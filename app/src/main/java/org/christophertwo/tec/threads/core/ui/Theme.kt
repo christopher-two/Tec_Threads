@@ -1,4 +1,4 @@
-package org.christophertwo.humillandobots.threads.core.ui
+package org.christophertwo.tec.threads.core.ui
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.fillMaxSize
