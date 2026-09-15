@@ -4,5 +4,5 @@ import androidx.compose.runtime.Immutable
 
 @Immutable
 data class HomeState(
-    val value: Int = 1
+    val searchText: String = ""
 )

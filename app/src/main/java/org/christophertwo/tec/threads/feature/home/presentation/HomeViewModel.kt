@@ -9,13 +9,11 @@ class HomeViewModel : ViewModel() {
     private val _state: MutableStateFlow<HomeState> = MutableStateFlow(HomeState())
     val state: StateFlow<HomeState> = _state.asStateFlow()
 
-    init {
-
-    }
-
     fun onAction(action: HomeAction) {
         when (action) {
-            else -> {}
+            is HomeAction.OnSearchTextChange -> {
+                _state.value = _state.value.copy(searchText = action.text)
+            }
         }
     }
 }
